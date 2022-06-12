@@ -21,4 +21,8 @@ use App\Http\Controllers\VaccineController;
 
 Route::get("/test", [VaccineController::class, "test"]);
 
+Route::get("/vaccine", [VaccineController::class, "vaccines"]);
+
+Route::post("/booking", [VaccineController::class, "booking"]);
+
 
