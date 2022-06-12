@@ -9,4 +9,6 @@ class VaccineController extends Controller
     function test(){
         return ["message" => "test"];
     }
+
+
 }
