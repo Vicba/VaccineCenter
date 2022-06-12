@@ -19,21 +19,24 @@
                 <p>Average cases per day in 2021: <span id="cases">0</span></p>
             </div>
 
-            <form>
-                <label for="name">Patient name:</label>
-                <input type="text" id="name" required maxlength="50">
+            <div class="form">
+                <form>
+                    <label for="name">Patient name:</label>
+                    <input type="text" id="name" required maxlength="50">
 
-                <label for="vaccine">Vaccine:</label>
-                <select id="vaccine"></select>
+                    <label for="vaccine">Vaccine:</label>
+                    <select id="vaccine"></select>
 
-                <label for="date">Vaccination date:</label>
-                <input type="date" id="date">
+                    <label for="date">Vaccination date:</label>
+                    <input type="date" id="date">
 
-                <label for="allergies">Any allergies?</label>
-                <input type="text" id="allergies" maxlength="255">
+                    <label for="allergies">Any allergies?</label>
+                    <input type="text" id="allergies" maxlength="255">
 
-                <input type="submit" value="Book">
-            </form>
+                    <input type="submit" value="Book" id="submit">
+                </form>
+            </div>
+
 
             <ul id="errors"></ul>
         </div>

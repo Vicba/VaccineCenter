@@ -23,6 +23,10 @@ body {
     width: 50%;
 }
 
+.form{
+    width: 50%;
+}
+
 h1 {
     font-size: 2rem;
     font-weight: bold;
