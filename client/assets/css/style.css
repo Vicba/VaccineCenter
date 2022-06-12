@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccccff;
+}
+
+#container {
+    width: 90vw;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+.info {
+    display: flex;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../media/vaccination.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+input, label, select {
+    width: 100%;
+    display: block;
+    margin-bottom: 0.5rem;
+
+}
+
+ul#errors {
+    color: #ff0000;
+    margin-bottom: 1rem;
+}
+
+li {
+    list-style: disc;
+    margin-left: 2rem;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: bold;
+}

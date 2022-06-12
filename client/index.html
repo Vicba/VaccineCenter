@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VaccineCenter</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/index.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Howest Vaccination Portal</h1>
+        </header>
+
+        <div class="info">
+            <div class="statistics">
+                <h2>Current statistics</h2>
+                <p>Average cases per day in 2021: <span id="cases">0</span></p>
+            </div>
+
+            <form>
+                <label for="name">Patient name:</label>
+                <input type="text" id="name" required maxlength="50">
+
+                <label for="vaccine">Vaccine:</label>
+                <select id="vaccine"></select>
+
+                <label for="date">Vaccination date:</label>
+                <input type="date" id="date">
+
+                <label for="allergies">Any allergies?</label>
+                <input type="text" id="allergies" maxlength="255">
+
+                <input type="submit" value="Book">
+            </form>
+
+            <ul id="errors"></ul>
+        </div>
+
+        <footer>
+            <hr>
+            <p>&copy; 2022 Howest - Images courtesy of Freepik.com</p>
+        </footer>
+    </div>
+</body>
+</html>
